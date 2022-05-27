@@ -13,5 +13,5 @@ There are also tests for the prometheus metrics written in Ginkgo framework that
 
 Build Image
 ```
-docker build . `go-test-app:latest`
+docker build . -t go-test-app
 ```
