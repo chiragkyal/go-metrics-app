@@ -11,7 +11,12 @@ There are also tests for the prometheus metrics written in Ginkgo framework that
 
 `go test ./...`
 
-Build Image
-```
+**Build Image**
+```sh
 docker build . -t go-test-app
+```
+
+**Deploy Image**
+```sh
+kubectl apply -f deployment.yaml
 ```
